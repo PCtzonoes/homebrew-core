@@ -38,6 +38,7 @@ class Cataclysm < Formula
   uses_from_macos "zlib"
 
   on_macos do
+    depends_on "freetype"
     depends_on "gettext"
   end
 
