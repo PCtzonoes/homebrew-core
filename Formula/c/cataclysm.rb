@@ -39,6 +39,7 @@ class Cataclysm < Formula
 
   on_macos do
     depends_on "gettext"
+    depends_on "freetype" if build.head?
   end
 
   def install
